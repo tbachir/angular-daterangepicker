@@ -129,6 +129,9 @@ Version > 0.1.1 requires [Bootstrap Datepicker](https://github.com/dangrossman/b
 ## Links
 See [original documentation](https://github.com/dangrossman/bootstrap-daterangepicker).
 
+## Contributing
+Contributions are welcome! Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before taking part.
+
 ## Issues and Pull Requests
 The PRs are more than welcome – thank you for those.
 
