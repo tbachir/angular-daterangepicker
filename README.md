@@ -129,6 +129,33 @@ Version > 0.1.1 requires [Bootstrap Datepicker](https://github.com/dangrossman/b
 ## Links
 See [original documentation](https://github.com/dangrossman/bootstrap-daterangepicker).
 
+## Development
+The directive is written in CoffeeScript (`coffee/angular-daterangepicker.coffee`) and built with [Grunt](https://gruntjs.com/).
+
+### Prerequisites
+[Node.js](https://nodejs.org/) with npm, and the Grunt command line interface:
+
+```
+npm install -g grunt-cli
+```
+
+### Build
+Install the dependencies once:
+
+```
+npm install
+```
+
+Then use one of the following commands:
+
+| Command | What it does |
+| --- | --- |
+| `grunt` | Runs `coffeelint`, then compiles `coffee/angular-daterangepicker.coffee` to `js/angular-daterangepicker.js`. |
+| `grunt develop` | Runs `grunt`, then watches `example.html` and `coffee/*.coffee` and rebuilds on every change. |
+| `grunt dist` | Runs `grunt`, then `ngAnnotate` and `uglify`. Generates the release files `js/angular-daterangepicker.min.js` and its source map. |
+
+See [CHANGELOG.md](CHANGELOG.md) for the project history.
+
 ## Issues and Pull Requests
 The PRs are more than welcome – thank you for those.
 
